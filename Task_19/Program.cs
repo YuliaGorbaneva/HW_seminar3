@@ -8,7 +8,7 @@ Console.WriteLine("Ввудите данные: ");
 string number = Console.ReadLine();
 void PrintPolindrom(string [] array)
 {
-    string Pol = number; //Console.ReadLine();
+    string Pol = number;
     string NewPol = "";
     for (int i = Pol.Length - 1; i >=0; i--)
     {
